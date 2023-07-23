@@ -94,8 +94,8 @@ function InputBar(props){
     if (pointCheck) {
       setCalc((prev) => prev + e.target.value);
       setPointCheck(false);
-    }
-  };
+    } 
+  }; 
 
   // 계산결과
   // 유효하지 않은 식 예외처리
